@@ -94,7 +94,7 @@ jobs:
             then
               aws cloudfront create-invalidation --distribution-id ${DISTRIBUTION_ID_STAGING} --paths /\*
             else
-              aws cloudfront create-invalidation --distribution-id ${DISTRIBUTION_ID_DEV} --paths /\*
+              aws cloudfront create-invalidation --distribution-id E2PR6170UWIGQ4 --paths /\*
             fi
 
 workflows:
